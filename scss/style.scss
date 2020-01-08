@@ -1,3 +1,14 @@
+$f-family: Helvetica, Arial, sans-serif;
+$p-color: blue;
+
+* {
+    font-family: $f-family;
+}
+
 h1 {
     color: pink;
+}
+
+p {
+    color: $p-color;
 }
